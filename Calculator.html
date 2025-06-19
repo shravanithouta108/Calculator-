@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+  <div class="calculator">
+    <form name="f1">
+      <div class="display">
+  <input type="text" name="t1">
+</div>
+  <div>
+    <input type="button" value="AC" onclick="document.f1.t1.value=''" class="operator">
+    
+    <input type="button" value="Del" onclick="document.f1.t1.value = document.f1.t1.value.toString().slice(0,-1)" class="operator">
+    
+    <input type="button" value="."     onclick="document.f1.t1.value +='.'" class="operator">
+    
+    <input type="button" value="/" onclick="document.f1.t1.value +='/'" class="operator">
+  </div>
+  <div>
+    <input type="button" value="7" onclick="document.f1.t1.value +='7'">
+    
+    <input type="button" value="8" onclick="document.f1.t1.value +='8'">
+    
+    <input type="button" value="9"
+    onclick="document.f1.t1.value +='9'">
+    
+    <input type="button" value="*" onclick="document.f1.t1.value +='*'" class="operator">
+  </div>
+  <div>
+    <input type="button" value="4" onclick="document.f1.t1.value +='4'">
+    
+    <input type="button" value="5" onclick="document.f1.t1.value +='5'">
+    
+    <input type="button" value="6" onclick="document.f1.t1.value +='6'">
+    
+    <input type="button" value="-" onclick="document.f1.t1.value +='-'" class="operator">
+  </div>
+  <div>
+    <input type="button" value="1" onclick="document.f1.t1.value +='1'">
+    
+    <input type="button" value="2" onclick="document.f1.t1.value +='2'">
+    
+    <input type="button" value="3" onclick="document.f1.t1.value +='3'">
+    
+    <input type="button" value="+" onclick="document.f1.t1.value +='+'" class="operator">
+  </div>
+  <div>
+    <input type="button" value="0" onclick="document.f1.t1.value +='0'">
+
+    <input type="button" value="00" onclick="document.f1.t1.value +='00'">
+
+    <input type="button" value="=" class="equal" onclick="document.f1.t1.value = eval(document.f1.t1.value)" class="operator">
+
+  </div>
+  </div>
+  </div>
+  </form>
+</body>
+</html>
