@@ -7,13 +7,13 @@
 .container{
   width:100%;
   height:100vh;
-  background:#e3f9ff;
+  background: lightcyan;
   display:flex;
   align-items:center;
   justify-content:center;
 }
 .calculator{
-  background:#3a4452;
+  background-color: rgba(58,68,72);
   padding:20px;
   border-radius:10px;
 }
@@ -26,13 +26,14 @@
   box-shadow:-8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.1);
 background:transparent;
 font-size:20px;
-color:#fff;
+color: lemonchiffon;
 cursor:pointer;
 margin:10px;
   
 }
 form .display{
-  background-colr:lightblue;
+  background-color: lightblue;
+  border-radius:10px;
   display:flex;
   justify-content: flex-end;
   margin:20px 0;
