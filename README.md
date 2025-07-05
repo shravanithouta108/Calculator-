@@ -31,6 +31,6 @@ This project was created to practice building responsive user interfaces using o
 
 ## 📸 Preview
 
-<img src="ss.jpg" alt="Screenshot_output" height="100%" width="100%">
+<img src="preview.jpg" alt="Screenshot_output" height="100%" width="100%">
 
 <h3>Author- Shravani Thouta </h3>
